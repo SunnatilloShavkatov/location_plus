@@ -2,15 +2,14 @@
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application>
         <service
+            android:name=".FlutterLocationService"
             android:enabled="true"
             android:exported="false"
-            android:foregroundServiceType="location"
-            android:name=".FlutterLocationService"/>
+            android:foregroundServiceType="location" />
     </application>
 
 </manifest>
