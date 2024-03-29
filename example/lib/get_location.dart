@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:location/location.dart';
+import 'package:location_plus/location_plus.dart';
 
 class GetLocationWidget extends StatefulWidget {
   const GetLocationWidget({super.key});

@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:location/location.dart';
+import 'package:location_plus/location_plus.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 

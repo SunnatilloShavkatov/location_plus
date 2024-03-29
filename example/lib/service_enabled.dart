@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:location/location.dart';
+import 'package:location_plus/location_plus.dart';
 
 class ServiceEnabledWidget extends StatefulWidget {
   const ServiceEnabledWidget({super.key});
